@@ -1,0 +1,42 @@
+ <style>
+      /* Add CSS styles here */
+      .container {
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+      }
+      h1 {
+        font-size: 36px;
+        margin-bottom: 20px;
+      }
+      select {
+        font-size: 18px;
+        padding: 10px;
+        margin-bottom: 20px;
+      }
+      input[type="submit"] {
+        font-size: 18px;
+        padding: 10px 20px;
+      }
+      #begin-button {
+        background-color: lightblue;
+        border-radius: 20px;
+        width: 250px;
+        height: 50px;
+        font-size: 20px;
+        padding: 10px;
+        }
+      #club-select {
+        display: none;
+        }
+      #club-select-label {
+        display: none;
+        }
+      #club-direction-range {
+        display: none;
+        }
+      #club-direction {
+        display: none;
+        }
+
+    </style>

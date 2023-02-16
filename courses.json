@@ -1,0 +1,12 @@
+{
+  "courses": [
+    {
+      "name": "Green Spring",
+      "holes": 18
+    },
+    {
+      "name": "Mountain View",
+      "holes": 18
+    }
+  ]
+}

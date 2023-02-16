@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="courses" type="JSON" href="courses.json">
+    <link rel="clubs" type="JSON" href="clubs.json">
+
+    <title>Track My Balls</title>
+
+  </head>
+  <body>
+    <div class="container">
+      <h1>    Golf Tracker</h1>
+      <form>
+        <label for="course-select">Select a Course:</label>
+        <select id="course-select">
+          <option value="">Select a Course</option>
+
+          <!-- Add options for courses here -->
+        </select>
+        <br>
+        <label for="holes-select">Number of Holes:</label>
+        <select id="holes-select">
+          <option value="9">9</option>
+          <option value="18">18</option>
+        </select>
+        <br>
+        <button id="begin-button">Submit</button>
+        <input type="submit" value="Submit">
+        <br><br>
+<!--        <label for="club-select">What club:</label>-->
+        <label for="club-select" id="club-select-label">What club:</label>
+        <select id="club-select">
+         <option value="">Select a Club</option>
+        </select>
+        <label for="club-direction" id="club-direction-range">Which direction:</label>
+<!--        Which direction:-->
+        <br>
+        <input Which direction: type="range" id="club-direction">
+
+          <br>
+          <br>
+
+
+      </form>
+    </div>
+  <script type="text/javascript" src="file.js"></script>
+<!--  <script>-->
+<!--  // Get a reference to the select element-->
+<!--  const courseSelect = document.getElementById("course-select");-->
+
+<!--  // Fetch the contents of the courses.json file-->
+<!--  fetch("courses.json")-->
+<!--    .then(response => response.json())-->
+<!--    .then(courses => {-->
+<!--      // Loop through the courses and create options for the select element-->
+<!--      courses.forEach(course => {-->
+<!--        const option = document.createElement("option");-->
+<!--        option.value = course.name;-->
+<!--        option.text = course.name;-->
+<!--        courseSelect.add(option);-->
+<!--      });-->
+<!--    });-->
+<!--    </script>-->
+  </body>
+</html>

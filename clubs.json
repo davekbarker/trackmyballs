@@ -1,0 +1,24 @@
+{
+  "clubs": [
+    {
+      "size": "3W",
+      "distance": 18,
+      "direction": 50
+    },
+    {
+      "size": "4I",
+      "distance": 20,
+      "direction": 50
+    },
+    {
+      "size": "5I",
+      "distance": 18,
+      "direction": 50
+    },
+    {
+      "size": "6I",
+      "distance": 20,
+      "direction": 50
+    }
+  ]
+}
