@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+
   <head>
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="courses" type="JSON" href="courses.json">
@@ -10,7 +10,7 @@
   </head>
   <body>
     <div class="container">
-      <h1>    Golf Tracker</h1>
+      <h1>Golf Ball Tracker</h1>
       <form>
         <label for="course-select">Select a Course:</label>
         <select id="course-select">
@@ -33,13 +33,16 @@
         <select id="club-select">
          <option value="">Select a Club</option>
         </select>
-        <label for="club-direction" id="club-direction-range">Which direction:</label>
+        <label for="club-direction-range" ></label>
 <!--        Which direction:-->
         <br>
-        <input Which direction: type="range" id="club-direction">
+        <input type="range" id="club-direction-range" min="0" max="100" value="50">
 
           <br>
-          <br>
+
+<!--        <input type="text" id="club-distance-text">-->
+<!--        <button id="distance-button">Submit</button>-->
+        <button id="select-direction-button" type="submit" value="SelectDirectionButton">Select Direction</button>
 
 
       </form>
@@ -64,3 +67,5 @@
 <!--    </script>-->
   </body>
 </html>
+
+
