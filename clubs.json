@@ -2,26 +2,26 @@
   "clubs": [
     {
       "size": "3W",
-      "distance": 18,
-      "direction": 50,
+      "distance": 0,
+      "direction": 0,
       "hits": 0
     },
     {
       "size": "4I",
-      "distance": 20,
-      "direction": 50,
+      "distance": 0,
+      "direction": 0,
       "hits": 0
     },
     {
       "size": "5I",
-      "distance": 18,
-      "direction": 50,
+      "distance": 0,
+      "direction": 0,
       "hits": 0
     },
     {
       "size": "6I",
-      "distance": 20,
-      "direction": 50,
+      "distance": 0,
+      "direction": 0,
       "hits": 0
     }
   ]
