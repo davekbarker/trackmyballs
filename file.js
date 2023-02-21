@@ -233,6 +233,7 @@ selectDirectionButton.addEventListener("click", function() {
   .catch(error => {
     console.error(error);
     alert("Failed to update clubs data");
+    throw error; // throw the error
 
 // get the direction inputs and store them in an array
 const clubDirections = [];

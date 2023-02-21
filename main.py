@@ -43,3 +43,28 @@ for club in club_directions:
 # Write the updated clubs.json data back to the file
 with open('clubs.json', 'w') as f:
     json.dump(clubs_data, f, indent=2)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# success = ((drive * passion) / persistence) * discipline
